@@ -1,0 +1,14 @@
+.heading{
+    background-color: rgb(199, 244, 255);
+    padding: 10px;
+    border-radius: 13px;
+}
+
+body{
+    background-color: aliceblue;    
+}
+
+p{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
