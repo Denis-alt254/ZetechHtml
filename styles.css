@@ -5,10 +5,24 @@
 }
 
 body{
-    background-color: aliceblue;    
+    background-color: rgb(255, 255, 255);    
 }
 
 p{
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    background-color: burlywood;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+.links{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-decoration: none;
 }
