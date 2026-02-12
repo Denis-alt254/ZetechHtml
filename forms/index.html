@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <label for="First Name">First Name:</label>
+        <br>
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name">
+        <br>
+        <br>
+
+        <label for="second name">Second Name:</label>
+        <br>
+        <input type="text" name="sname" id="sname" placeholder="Enter your second name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <br>
+        <br>
+
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" name="Gender" id="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="Gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <br>
+
+        <label for="Hoppy">Hoppy:</label>
+        <br>
+        <input type="checkbox" name="Hoppy" value="Swimming">
+        <label for="swimming">Swimming</label>
+        <br>
+        <input type="checkbox" name="Hoppy" value="Singing">
+        <label for="singing">Singing</label>
+        <br>
+        <input type="checkbox" name="Hoppy" value="Football">
+        <label for="football">Football</label>
+        <br>
+        <br>
+
+        <label for="comments">Enter your Comments:</label>
+        <textarea name="comments" id="comments" rows="5"></textarea>
+
+
+        <button type="submit" onclick="alert(`You just submited your details.`)">Submit</button>
+    </form>
+</body>
+</html>
